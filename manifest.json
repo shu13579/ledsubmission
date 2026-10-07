@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cosmic-jellyfish.gif",
+    "title": "Cosmic Jellyfish",
+    "width": 64,
+    "height": 64,
+    "frames": 96,
+    "frame_ms": 80,
+    "loop_ms": 7680,
+    "bytes": 71233
+  },
+  {
+    "file": "02-neon-cat.gif",
+    "title": "Neon Rain / Rooftop Cat",
+    "width": 64,
+    "height": 64,
+    "frames": 96,
+    "frame_ms": 80,
+    "loop_ms": 7680,
+    "bytes": 79828
+  },
+  {
+    "file": "03-orbital-seasons.gif",
+    "title": "Orbital Seasons",
+    "width": 64,
+    "height": 64,
+    "frames": 96,
+    "frame_ms": 80,
+    "loop_ms": 7680,
+    "bytes": 59311
+  }
+]

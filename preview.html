@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>64 pixels, three little worlds</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#080b17;color:#ecedf6;font:16px/1.7 system-ui,sans-serif;padding:48px 6vw}header{max-width:900px;margin-bottom:36px}small{color:#76dedc;letter-spacing:.15em}h1{font-size:clamp(30px,4vw,56px);line-height:1.15;letter-spacing:-.03em;margin:16px 0}p{color:#a6adc5}main{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}article{border:1px solid #28304a;border-radius:20px;background:#111628;overflow:hidden}article img{width:100%;aspect-ratio:1;image-rendering:pixelated;display:block;background:#040613}.text{padding:22px}h2{font-size:20px;margin:0 0 10px}a{color:#78dedb}label{display:inline-flex;align-items:center;gap:8px;margin:12px 20px 12px 0}input{accent-color:#76dedc}.led img{filter:brightness(1.12);mask-image:radial-gradient(circle at center,#000 56%,#0000 69%);mask-size:calc(100% / 64) calc(100% / 64)}body.paused article img{display:none}body.paused article .still{display:block}article .still{display:none}@media(max-width:850px){main{grid-template-columns:1fr;max-width:520px}}
+</style>
+<header><small>64 × 64 / ORIGINAL PIXEL ANIMATIONS</small><h1>64 pixels,<br>three little worlds.</h1><p>宇宙のクラゲ、雨のネオン街、小さな惑星の四季。各7.68秒のループ作品。</p><label><input type="checkbox" onchange="document.body.classList.toggle('led',this.checked)">LED風に表示</label><label><input type="checkbox" onchange="document.body.classList.toggle('paused',this.checked)">静止画で見る</label><p>LED表示は見え方のイメージです。応募時は submissions 内の64×64 GIFを使ってください。</p></header>
+<main>
+<article><img src="submissions/01-cosmic-jellyfish.gif" alt="宇宙で浮遊する発光クラゲ"><img class="still" src="previews/01-cosmic-jellyfish.png" alt="クラゲの静止画"><div class="text"><h2>01 / Cosmic Jellyfish</h2><p>星々の海で、光のリボンをゆらすクラゲ。</p><a download href="submissions/01-cosmic-jellyfish.gif">提出用GIF</a></div></article>
+<article><img src="submissions/02-neon-cat.gif" alt="ネオン街の屋上で雨を眺める猫"><img class="still" src="previews/02-neon-cat.png" alt="猫の静止画"><div class="text"><h2>02 / Neon Rain</h2><p>雨の街。屋上の猫と、あたたかいネオン。</p><a download href="submissions/02-neon-cat.gif">提出用GIF</a></div></article>
+<article><img src="submissions/03-orbital-seasons.gif" alt="季節ごとに色を変える小さな惑星の木"><img class="still" src="previews/03-orbital-seasons.png" alt="惑星の静止画"><div class="text"><h2>03 / Orbital Seasons</h2><p>一周する月と、春夏秋冬をめぐる木。</p><a download href="submissions/03-orbital-seasons.gif">提出用GIF</a></div></article>
+</main></html>
