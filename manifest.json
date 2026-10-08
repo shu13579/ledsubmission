@@ -1,32 +1,41 @@
 [
   {
-    "file": "01-cosmic-jellyfish.gif",
-    "title": "Cosmic Jellyfish",
-    "width": 64,
-    "height": 64,
-    "frames": 96,
-    "frame_ms": 80,
-    "loop_ms": 7680,
-    "bytes": 71233
+    "file": "submissions/01-japan-belgium-express.gif",
+    "title": "Across the Seas — Japan to Antwerp",
+    "size": [
+      64,
+      64
+    ],
+    "frames": 128,
+    "delay_ms": 80,
+    "duration_ms": 10240,
+    "palette_colors": 128,
+    "encoder": "Jixoo GifEncoder"
   },
   {
-    "file": "02-neon-cat.gif",
-    "title": "Neon Rain / Rooftop Cat",
-    "width": 64,
-    "height": 64,
-    "frames": 96,
-    "frame_ms": 80,
-    "loop_ms": 7680,
-    "bytes": 79828
+    "file": "submissions/02-java-steam-to-code.gif",
+    "title": "Java — Steam to Code",
+    "size": [
+      64,
+      64
+    ],
+    "frames": 128,
+    "delay_ms": 80,
+    "duration_ms": 10240,
+    "palette_colors": 128,
+    "encoder": "Jixoo GifEncoder"
   },
   {
-    "file": "03-orbital-seasons.gif",
-    "title": "Orbital Seasons",
-    "width": 64,
-    "height": 64,
-    "frames": 96,
-    "frame_ms": 80,
-    "loop_ms": 7680,
-    "bytes": 59311
+    "file": "submissions/03-devoxx-atomium-portal.gif",
+    "title": "Devoxx — Atomium Portal",
+    "size": [
+      64,
+      64
+    ],
+    "frames": 128,
+    "delay_ms": 80,
+    "duration_ms": 10240,
+    "palette_colors": 128,
+    "encoder": "Jixoo GifEncoder"
   }
 ]

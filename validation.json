@@ -1,35 +1,42 @@
 [
   {
-    "file": "01-cosmic-jellyfish.gif",
-    "width": 64,
-    "height": 64,
-    "frames": 96,
-    "duration_ms": 7680,
-    "bytes": 71233,
-    "mean_rgb_error": 0.0,
-    "loop_seam_mean_rgb_change": 1.254,
-    "status": "PASS"
+    "file": "01-japan-belgium-express.gif",
+    "bytes": 218353,
+    "frames": 128,
+    "duration_ms": 10240,
+    "unique_colors": 69,
+    "exact_rgb_match": true,
+    "loop_seam_mean_rgb_difference": 0.148,
+    "max_normal_frame_difference": 3.451,
+    "passed": true,
+    "flight_checks": {
+      "forward_only": true,
+      "constant_speed": true,
+      "pitch_limit_degrees": 20,
+      "max_rotation_per_frame_degrees": 0.854,
+      "loop_reset_offscreen": true
+    }
   },
   {
-    "file": "02-neon-cat.gif",
-    "width": 64,
-    "height": 64,
-    "frames": 96,
-    "duration_ms": 7680,
-    "bytes": 79828,
-    "mean_rgb_error": 0.0,
-    "loop_seam_mean_rgb_change": 0.898,
-    "status": "PASS"
+    "file": "02-java-steam-to-code.gif",
+    "bytes": 115742,
+    "frames": 128,
+    "duration_ms": 10240,
+    "unique_colors": 32,
+    "exact_rgb_match": true,
+    "loop_seam_mean_rgb_difference": 0.546,
+    "max_normal_frame_difference": 10.031,
+    "passed": true
   },
   {
-    "file": "03-orbital-seasons.gif",
-    "width": 64,
-    "height": 64,
-    "frames": 96,
-    "duration_ms": 7680,
-    "bytes": 59311,
-    "mean_rgb_error": 0.0,
-    "loop_seam_mean_rgb_change": 2.858,
-    "status": "PASS"
+    "file": "03-devoxx-atomium-portal.gif",
+    "bytes": 174094,
+    "frames": 128,
+    "duration_ms": 10240,
+    "unique_colors": 33,
+    "exact_rgb_match": true,
+    "loop_seam_mean_rgb_difference": 4.828,
+    "max_normal_frame_difference": 7.523,
+    "passed": true
   }
 ]
